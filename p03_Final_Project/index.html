@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gas Calculator(Chico Edition)</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="style.css">
+  <!--<script type="text/javascript" src="script.js"/>-->
+</head>
+<body style="background-color: red">
+  <h1 class="heading">Welcome to Gas Calculator, Chico Edition</h1>
+  <h2 class="heading">We Calculate Your Trip from Chico to Some of the Most Favorite Destination!</h2>
+  <div style="width:20% ; float:left">
+    <img src="http://files.chicoca.gov/logo.jpg" width="250" alt="Chico Logo">
+    <br>
+    <a href="http://files.chicoca.gov/" class="link">Source</a>
+  </div>
+  <div style="width:60% ; float:left">
+    <div style="width 50% ; float:left">
+      <p class="option"> Choose Your Destination :<p>
+      <p class="option"> Your Car Average MPG : </p>
+      <p class="option"> Your Gas Tank Capacity : </p>
+      <p class="option"> Your Fuel Type : </p>
+    </div>
+    <div style="width :50% ; float:right">
+      <br><br><br>
+      <select id="destination">
+        <option value="x">Choose Destination</option>
+        <option value="Ashland, Oregon">Ashland, Oregon</option>
+        <option value="Lake Shasta">Lake Shasta</option>
+        <option value="Lake Tahoe">Lake Tahoe</option>
+        <option value="Mt. Shasta"> Mt. Shasta</option>
+        <option value="Napa Valler">Napa Valley</option>
+        <option value="Redwood National Forest">Redwood National Forest</option>
+        <option value="Sacramento">Sacramento</option>
+        <option value="San Francisco">San Francisco</option>
+      </select>
+      <br><br><br><br>
+      <input id="mpg" placeholder="Car MPG Here"> miles/gallon</input>
+      <br><br><br><br>
+      <input id="gastank" placeholder="Gas Tank Capacity Here"> gal</input>
+      <br><br><br><br>
+      <input id="fueltype" placeholder="Use the Octane Number"></input>
+      <br><br><br><br>
+      <a href="result.html"><button id="button">CALCULATE</button></a>
+    </div>
+  </div>
+  <div style="width:20% ; float:left">
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/ad/03/c8/ad03c8939d8db17dc6114a37e712017b.jpg" width="300" alt="Favorite Destination">
+    <br>
+    <a href="https://www.pinterest.com/mb71/charming-chico-california/" class="link">Source</a>
+  </div>
+</body>
+</html>
