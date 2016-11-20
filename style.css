@@ -1,0 +1,35 @@
+.heading{
+  font-family: monospace;
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  font-family: cursive;
+  color: silver;
+}
+
+.option{
+  font-family: monospace;
+  font-size:34px;
+  text-align: right;
+}
+
+#button{
+  background-color: orange;
+  text-align: center;
+  border: none;
+  padding : 15px 50px;
+  font-family: fantasy;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.result{
+  font-family: cursive;
+  text-align: right;
+}
+
+body{
+  background-color: red;
+}
