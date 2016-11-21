@@ -4,7 +4,7 @@
   <title>Gas Calculator(Chico Edition)</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="script.js"/>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
   <h1 class="heading">Welcome to Gas Calculator, Chico Edition</h1>
@@ -15,33 +15,33 @@
     <a href="http://files.chicoca.gov/" class="link">Source</a>
   </div>
   <div style="width:60% ; float:left">
-    <div style="width 50% ; float:left">
+    <div style="width 60% ; float:left">
       <p class="option"> Choose Your Destination :<p>
       <p class="option"> Your Car Average MPG : </p>
       <p class="option"> Your Gas Tank Capacity : </p>
       <p class="option"> Your Fuel Type : </p>
+      <br><br>
+      <button class="button" onclick="calculate()">CALCULATE</button>
     </div>
-    <div style="width :50% ; float:right">
+    <div style="width :40% ; float:right">
       <br><br><br>
-      <select id="destination" onchange="dest()">
-        <option value="x">Choose Destination</option>
+      <select id="destination">
         <option value="Ashland, Oregon">Ashland, Oregon</option>
-        <option value="Lake Shasta">Lake Shasta</option>
         <option value="Lake Tahoe">Lake Tahoe</option>
         <option value="Mt. Shasta"> Mt. Shasta</option>
-        <option value="Napa Valler">Napa Valley</option>
+        <option value="Napa Valley">Napa Valley</option>
         <option value="Redwood National Forest">Redwood National Forest</option>
         <option value="Sacramento">Sacramento</option>
         <option value="San Francisco">San Francisco</option>
       </select>
       <br><br><br><br>
-      <input id="mpg" placeholder="Car MPG Here"> miles/gallon</input>
+      <input id="mpg" placeholder="Car MPG Here"> miles/gallon
       <br><br><br><br>
-      <input id="gastank" placeholder="Gas Tank Capacity Here"> gal</input>
+      <input id="gastank" placeholder="Gas Tank Capacity Here"> gal
       <br><br><br><br>
-      <input id="fueltype" placeholder="Use the Octane Number" onchange="octane()"></input>
+      <input id="fueltype" placeholder="Use the Octane Number">
       <br><br><br><br>
-      <a href="result.html"><button id="button" onclick="calculate()">CALCULATE</button></a>
+      <a href="result.html"><button class="button disabled" id="but">To Result Page</button></a>
     </div>
   </div>
   <div style="width:20% ; float:left">

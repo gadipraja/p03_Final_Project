@@ -4,17 +4,20 @@
   <title>Result Page</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
-  <!--<script type="text/javascript" src="script.js"/>-->
+  <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="getdata()">
+<body onload="getdata()" id="locate">
   <h1 class="heading"> Welcome to Your Result Page</h1>
   <h2 class="heading"> From Chico to <span id="destination"></span></h2>
-  <div style="width:30% ; float:left">
+  <div style="width:48% ; float:left">
     <h1 class="result"> Total Distance : <span id="distance"></span></h1>
-    <h1 class="result"> Duration : <span id="duration"></span></h1>
-    <h1 class="result"> Total Gas Needed : <span id="gas"></span></h1>
-    <h1 class="result"> Total Cost for this Trip : <span id="cost"></span></h1>
+    <h1 class="result"> Duration Approximation : <span id="duration"></span></h1>
+    <h1 class="result"> Total Gas Needed Approximation : <span id="gas"></span></h1>
+    <h1 class="result"> Total Cost for this Trip Approximation : <span id="cost"></span></h1>
+    <h1 class="result"> Total Stop at Gas Station Approxiamtion : <span id="gasstop"></span></h1>
   </div>
-  <div id="locate()"></div>
+  <div style='width:52% ; float left'>
+    <a href="https://www.google.com/maps/" class="link">Source</a>
+  </div>
 </body>
 </html>

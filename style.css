@@ -15,7 +15,7 @@
   text-align: right;
 }
 
-#button{
+.button{
   background-color: orange;
   text-align: center;
   border: none;
@@ -24,10 +24,14 @@
   font-size: 20px;
   border-radius: 8px;
 }
+.disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
 
 .result{
   font-family: cursive;
-  text-align: right;
+  text-align: left;
 }
 
 body{
