@@ -1,3 +1,4 @@
+//Gerald Damiano
 //courtesy of w3schools, from: http://www.w3schools.com/js/js_cookies.
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
@@ -83,10 +84,11 @@ function getdata() {
       else {
         document.getElementById('cost').innerHTML = '$'+((destin[i].dists/mpg).toFixed(2)*2.83).toFixed(0);
       }
-      if((destin[i].dists/mpg).toFixed(0) < tank){
-        document.getElementById('gasstop').innerHTML = '0';
+      if(tank > destin[i].dists/mpg)
+      {
+        document.getElementById('gasstop').innerHTML = 0;
       }
-      else {
+      else{
         document.getElementById('gasstop').innerHTML = ((destin[i].dists/mpg)/tank).toFixed(0);
       }
       var imgs = document.createElement('img');
